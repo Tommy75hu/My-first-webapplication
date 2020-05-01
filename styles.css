@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    align-content: center;
+    background: lightgrey;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#viewer {
+    width: 900px;
+    height: 450px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.arrow {
+    width: 50px;
+    height: auto;
+    background: white;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.arrow:hover {
+    background: rgba(0, 0, 0, 0.15)
+}
+#next{
+    transform: rotate(0.5turn);
+}
+
+#photo {
+display: flex;
+width: 800px;
+}
+
+.textbox {
+    width: 760px;
+    height: 100px;
+    position: absolute;
+    bottom: 0px;
+    left: 50px;
+    color: white;
+    padding: 20px;
+    padding-top: 5px;
+    background: rgba(0, 0, 0, 0.5);   
+}
+
+#thumbs {
+    display: flex;
+    justify-self: center;
+    width: 800px;
+    height: 100px;
+    margin-top: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.thumb {
+    width: 80px;
+    border: 5px solid white;
+}
+.thumb:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
